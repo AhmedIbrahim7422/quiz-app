@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Setting */
+.setting {
+    width: 350px;
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 10px 30px;
+    box-shadow: 2px 7px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 30px ;
+}
+.setting h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.setting > div > label{
+    width: 140px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.2em;
+}
+
+.setting > div > select{
+    cursor: pointer;
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    margin: 3px;
+    font-size: 20px;
+    background-color: #86c4eb;
+    border: solid 2px blue;
+}
+
+
+ button{
+    cursor: pointer;
+    color: #ffffff;
+    width: 120px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    margin: 15px ;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #121263;
+    border:   none;
+}
+
+/*  Quiz */
+
+.quiz{
+    width: 100%;
+    height: 100Vh;
+
+}
+.quest{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: calc(100%/6);
+    background-color: #121263;
+}
+.quest > span{
+    padding: 10px
+}
+
+.answer{
+    margin: 5px 0;
+    color: black;
+    font-size: 35px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: calc(100%/6);
+    background-color: #86c4eb;
+    cursor: pointer;
+}
+.answer > input{
+    margin: 25px;
+}
+
+.next{
+    cursor: pointer;
+    color: #ffffff;
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 28px;
+    margin: 0 42%;
+    background-color: #121263;
+    border:   none;
+}
+
+/* final */
+
+.final{
+    width: 350px;
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 10px 30px;
+    box-shadow: 2px 7px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 30px ;
+}
+
+#score{
+    font-size: 25px;
+    font-weight: 700;
+}
